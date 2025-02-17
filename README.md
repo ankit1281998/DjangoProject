@@ -14,5 +14,11 @@ I have done the following:
   ![image](https://github.com/user-attachments/assets/0786e8ac-ddde-4178-a107-e727f625d2a6)
   ![image](https://github.com/user-attachments/assets/fa122f11-ca18-4e52-b035-7eb64609a9f9)
 
-- Created SuperUser
+- Created SuperUser and updated admin.py file
+  ![image](https://github.com/user-attachments/assets/5a633413-931e-4001-ad47-9226d7c6de34)
+  ![image](https://github.com/user-attachments/assets/a8eeb1cb-a8d8-4ec2-aa3c-35b63104174e)
+
+- Used Django Shell to add new user and view objects
+  ![image](https://github.com/user-attachments/assets/1068595b-22d0-4638-980c-2489d2226131)
+
 - Performed CRUD operations
