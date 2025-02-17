@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{% static 'Loginify/main.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <label for="username">Username:</label><br>
+            <input type="text" name="username" required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" required><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" required><br>
+            
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+</html>
